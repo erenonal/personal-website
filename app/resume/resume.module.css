@@ -1,0 +1,19 @@
+.resumeContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.resumeContainer li {
+  color: #a0aec0;
+}
+.resumeContact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+
+.resumeContact li {
+  color: #9ca3af;
+  font-weight: 600;
+}
