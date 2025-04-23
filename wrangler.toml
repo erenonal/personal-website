@@ -1,9 +1,9 @@
 name = "erenonal-website"
+main = "workers-site/index.js"  # Updated entry point
 compatibility_date = "2024-05-01"
 
 [site]
-bucket = "./out"  # Your Next.js static files
-entry-point = "workers-site"  # Special entry for static sites
+bucket = "./out"  # Your Next.js static export directory
 
 [env.production]
 workers_dev = false
