@@ -59,7 +59,7 @@ export default function Home() {
           quantity={100}
         />
         <h1 className="py-3.5 px-0.5 z-10 text-5xl sm:text-6xl md:text-9xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display whitespace-nowrap bg-clip-text">
-          eren
+          erenonal
         </h1>
 
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
