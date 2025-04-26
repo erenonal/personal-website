@@ -45,14 +45,14 @@ export default function RootLayout({
       <head>
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-F4QXSG320S"
+          src="https://www.googletagmanager.com/gtag/js?id=G-JPGXE80W8M"
         ></Script>
         <Script id="google-analytics">
           {` window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-F4QXSG320S');`}
+          gtag('config', 'G-JPGXE80W8M');`}
         </Script>
         <Analytics />
       </head>
