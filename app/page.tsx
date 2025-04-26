@@ -17,29 +17,6 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
-        <Head>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Person",
-                name: "Eren Onal",
-                url: "https://www.linkedin.com/in/onaleren",
-                sameAs: ["https://www.linkedin.com/in/onaleren"],
-                jobTitle: "Frontend Developer",
-                worksFor: {
-                  "@type": "Organization",
-                  name: "Eren Onal Web Development",
-                },
-                image: "https://erenonal.com/erenonal.jpg",
-                description:
-                  "Frontend Developer specializing in JavaScript, React, Vue.js, and web development technologies.",
-              }),
-            }}
-          />
-        </Head>
-
         <nav className="my-16 animate-fade-in">
           <ul className="flex items-center justify-center gap-4">
             {navigation.map((item) => (

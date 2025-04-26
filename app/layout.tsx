@@ -10,6 +10,28 @@ export const metadata: Metadata = {
     template: "%s | erenonal.com",
   },
   description: "Front end developer",
+  openGraph: {
+    title: "erenonal.com",
+    description: "Front end developer",
+    url: "https://erenonal.com",
+    siteName: "erenonal.com",
+    images: [
+      {
+        url: "https://erenonal.com/erenonal.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Eren Onal",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "erenonal.com",
+    description: "Front end developer",
+    images: ["https://erenonal.com/erenonal.jpg"],
+  },
   robots: {
     index: true,
     follow: true,
@@ -43,6 +65,27 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
+        <link rel="canonical" href="https://erenonal.com" />
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Eren Onal",
+              url: "https://www.linkedin.com/in/onaleren",
+              sameAs: ["https://www.linkedin.com/in/onaleren"],
+              jobTitle: "Frontend Developer",
+              worksFor: {
+                "@type": "Organization",
+                name: "Eren Onal Web Development",
+              },
+              image: "https://erenonal.com/erenonal.jpg",
+              description:
+                "Frontend Developer specializing in JavaScript, React, Vue.js, and web development technologies.",
+            }),
+          }}
+        />
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-F4QXSG320S"
