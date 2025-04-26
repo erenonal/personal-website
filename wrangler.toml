@@ -1,4 +1,4 @@
-name = 'personal-website'
+name = 'erenonal'
 main = "workers-site/index.js"  # Updated entry point
 compatibility_date = "2024-05-01"
 
