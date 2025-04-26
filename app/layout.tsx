@@ -45,14 +45,14 @@ export default function RootLayout({
       <head>
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-F4QXSG320S"
+          src="https://www.googletagmanager.com/gtag/js?id=G-TTC249J7"
         ></Script>
         <Script id="google-analytics">
           {` window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-F4QXSG320S');`}
+          gtag('config', 'G-TTC249J7');`}
         </Script>
         <Analytics />
       </head>
@@ -61,6 +61,14 @@ export default function RootLayout({
           process.env.NODE_ENV === "development" ? "debug-screens" : undefined
         }`}
       >
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TTC249J7"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {children}
       </body>
     </html>
