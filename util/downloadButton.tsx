@@ -17,7 +17,7 @@ const DownloadButton = () => {
   return (
     <a
       href="/EREN_ONAL.pdf"
-      download="Eren Onal.pdf"
+      download="EREN ONAL.pdf"
       className="flex flex-col items-center justify-center gap-2 fixed bottom-10 right-10 bg-gray-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300"
       style={{
         height: `${25 + bounceHeight}px`,
